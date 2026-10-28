@@ -38,7 +38,7 @@ The whole evaluation cost $27.70 at batch prices ($20.81 of it for Opus with ful
 | P4 | RAG input tokens over full text, Opus 5.5, median at most 25% | 27.9% | failed |
 | P5 | quotes found in the text, Opus 5.5 with RAG, at least 95% | 98.0% | met |
 | P6 | Haiku 5.5 vs Opus 5.5 with RAG, lower bound above -0.05 | -0.040 (-0.053 to -0.027) | failed |
-| P7 | tests in continuous integration and in the Docker image | 11 tests pass locally; the CI workflow and the Docker image were not run | not checked |
+| P7 | tests in continuous integration and in the Docker image | 11 tests pass on Python 3.10 and 3.12 in GitHub Actions and inside the Docker image | met |
 
 P3 failed narrowly: retrieval cost Opus 1.6 points of agreement on average, and the lower end of the interval reached 3.2 points against a limit of 3. P4 failed by 2.9 points: the four chunks per field gave about 16,700 tokens, 28% of the median full text. P6 failed: Haiku with retrieval was 4.0 points behind Opus with retrieval.
 
