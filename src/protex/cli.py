@@ -1,5 +1,6 @@
 """Command line: python -m protex <command>."""
 import argparse
+import concurrent.futures as cf
 import datetime as dt
 import json
 import logging
@@ -7,7 +8,7 @@ from pathlib import Path
 
 import pandas as pd
 
-from protex import llm, pdftext, registry, report, retrieve, rules
+from protex import agent, agent_report, llm, pdftext, registry, report, retrieve, rules
 
 log = logging.getLogger("protex")
 DATA = Path("data")
@@ -147,6 +148,35 @@ def cmd_evaluate(a):
     report.run(a.role, DATA, RESULTS)
 
 
+def spent(out):
+    return sum(r.get("agent_usd", 0) + r.get("extract_usd", 0)
+               for r in (json.loads(f.read_text(encoding="utf-8")) for f in out.glob("agent-*.json")))
+
+
+def cmd_agent(a):
+    out = DATA / "agent"
+    ids = usable(a.role)[:a.limit] if a.limit else usable(a.role)
+    todo = [n for n in ids if not (out / f"agent-{a.model}-{n}.json").exists()]
+    c = llm.client()
+    log.info("%s: %d to run, $%.2f spent so far", a.model, len(todo), spent(out) if out.exists() else 0)
+
+    def one(nct):
+        if out.exists() and spent(out) > a.budget:
+            return nct, "skipped (budget)"
+        rec = agent.run(nct, load_pages(nct), a.model, c)
+        agent.save(rec, out)
+        return nct, f"{len(rec['calls'])} calls, ${rec['agent_usd'] + rec['extract_usd']:.3f}"
+
+    with cf.ThreadPoolExecutor(a.workers) as ex:
+        for nct, msg in ex.map(one, todo):
+            log.info("%s %s: %s", a.model, nct, msg)
+    log.info("total spent $%.2f", spent(out))
+
+
+def cmd_agent_evaluate(a):
+    agent_report.run(DATA, RESULTS)
+
+
 def main(argv=None):
     logging.basicConfig(level=logging.INFO, format="%(asctime)s %(name)s %(levelname)s %(message)s")
     ap = argparse.ArgumentParser(prog="protex")
@@ -168,9 +198,17 @@ def main(argv=None):
             p.add_argument("--out-tokens", type=int, default=3000)
         if name == "submit":
             p.add_argument("--budget", type=float, required=True, help="USD")
+    g = sub.add_parser("agent", help="part 2: evidence agent, then the part 1 extraction")
+    g.add_argument("--role", choices=["pilot", "evaluation"], default="evaluation")
+    g.add_argument("--model", choices=["haiku", "opus"], required=True)
+    g.add_argument("--limit", type=int, help="first n protocols in sample order")
+    g.add_argument("--budget", type=float, required=True, help="USD, part 2 total")
+    g.add_argument("--workers", type=int, default=4)
+    sub.add_parser("agent-evaluate")
     a = ap.parse_args(argv)
     {"frame": cmd_frame, "download": cmd_download, "parse": cmd_parse, "rules": cmd_rules,
-     "estimate": cmd_estimate, "submit": cmd_submit, "collect": cmd_collect, "evaluate": cmd_evaluate}[a.cmd](a)
+     "estimate": cmd_estimate, "submit": cmd_submit, "collect": cmd_collect, "evaluate": cmd_evaluate,
+     "agent": cmd_agent, "agent-evaluate": cmd_agent_evaluate}[a.cmd](a)
 
 
 if __name__ == "__main__":

@@ -1,0 +1,7 @@
+id,check,value,met
+K1,"agent vs fixed RAG, Haiku (lower bound > 0)","+0.014 [-0.002, +0.031]",False
+K2,"agent vs full text, Haiku (lower bound > -0.03)","+0.001 [-0.014, +0.014]",True
+K3,"input tokens, agent-haiku / full-haiku (median <= 50%)",111.0%,False
+K4,"quotes found in the text, agent-haiku (>= 95%)",94.5%,False
+K5,"agent vs fixed RAG, Opus, all 148 (lower bound > 0)","+0.007 [-0.005, +0.020]",False
+K5 (first 50),"the same on the first 50, as first planned","+0.000 [-0.011, +0.011]",False

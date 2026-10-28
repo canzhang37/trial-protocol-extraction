@@ -53,6 +53,29 @@ def main():
     print(ns.round(3).to_string())
     print("garbled:", sorted(garbled))
     print(out.round(3).to_string(index=False))
+    if (RES / "agent_predictions.csv").exists():
+        agent_defaults(pred, key)
+
+
+def agent_defaults(part1, key):
+    # part 2 arms under the same registry defaults
+    ap = pd.read_csv(RES / "agent_predictions.csv", dtype={"value": str})
+    both = pd.concat([part1, ap], ignore_index=True)
+    conv = both.copy()
+    llm = conv.method != "rules"
+    for f, v in DEFAULTS.items():
+        conv.loc[llm & conv.field.eq(f) & conv.value.eq(NOT_STATED), "value"] = v
+    rows = []
+    for label, p in [("as planned", both), ("defaults for not stated", conv)]:
+        doc = per_doc(score(p, key))
+        for a, b in [("agent-haiku", "rag-haiku"), ("agent-haiku", "full-haiku"), ("agent-opus", "rag-opus"),
+                     ("agent-opus", "full-opus")]:
+            rows.append({"scoring": label, **paired(doc, a, b)})
+        for m in ["agent-haiku", "agent-opus"]:
+            rows.append({"scoring": label, "contrast": f"mean {m}", "n": doc[m].notna().sum(), "diff": doc[m].mean()})
+    out = pd.DataFrame(rows)
+    out.to_csv(RES / "posthoc_agent.csv", index=False)
+    print(out.round(3).to_string(index=False))
 
 
 if __name__ == "__main__":

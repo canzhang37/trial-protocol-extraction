@@ -1,0 +1,15 @@
+field,contrast,a_only,b_only,p
+phase,agent-haiku - rag-haiku,7,2,0.1796875
+randomized,agent-haiku - rag-haiku,4,0,0.125
+intervention_model,agent-haiku - rag-haiku,4,4,1.0
+blinding,agent-haiku - rag-haiku,3,2,1.0
+number_of_arms,agent-haiku - rag-haiku,5,1,0.21875
+minimum_age,agent-haiku - rag-haiku,2,0,0.5
+sex,agent-haiku - rag-haiku,5,7,0.7744140625
+phase,agent-opus - rag-opus,0,1,1.0
+randomized,agent-opus - rag-opus,2,1,1.0
+intervention_model,agent-opus - rag-opus,3,1,0.625
+blinding,agent-opus - rag-opus,3,3,1.0
+number_of_arms,agent-opus - rag-opus,2,2,1.0
+minimum_age,agent-opus - rag-opus,2,0,0.5
+sex,agent-opus - rag-opus,7,4,0.548828125
