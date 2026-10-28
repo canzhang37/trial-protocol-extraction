@@ -1,0 +1,7 @@
+id,check,value,met
+P1,protocols with extractable text (>= 90%),98.7%,True
+P2,every LLM method beats rules (lower bound > 0),"full-opus +0.275 [+0.241, +0.310]; rag-opus +0.259 [+0.223, +0.296]; full-haiku +0.232 [+0.194, +0.268]; rag-haiku +0.219 [+0.181, +0.258]",True
+P3,"RAG vs full text, Opus 5.5 (lower bound > -0.03)","-0.016 [-0.032, -0.003]",False
+P4,"RAG input tokens / full text, Opus 5.5 (median <= 25%)",27.9%,False
+P5,"quotes found in the text, RAG Opus 5.5 (>= 95%)",98.0%,True
+P6,"Haiku 5.5 vs Opus 5.5, RAG (lower bound > -0.05)","-0.040 [-0.053, -0.027]",False

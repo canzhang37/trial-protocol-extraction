@@ -1,0 +1,109 @@
+nct_id,field,llm_value,registry
+NCT00591838,blinding,not stated,open label
+NCT00591838,number_of_arms,4,5
+NCT00783367,number_of_arms,2,1
+NCT00804856,number_of_arms,3,15
+NCT00804856,phase,1/2,2
+NCT00807599,blinding,not stated,open label
+NCT01029873,number_of_arms,5,4
+NCT01263769,blinding,not stated,open label
+NCT01319981,intervention_model,single group,parallel
+NCT01319981,number_of_arms,1,2
+NCT01375114,blinding,not stated,blinded
+NCT01375114,intervention_model,not stated,single group
+NCT01375114,minimum_age,none,18.0
+NCT01375114,number_of_arms,not stated,3
+NCT01375114,phase,not stated,1/2
+NCT01375114,randomized,not stated,yes
+NCT01375114,sex,not stated,all
+NCT01753414,blinding,not stated,open label
+NCT01847001,blinding,not stated,open label
+NCT02009449,intervention_model,sequential,single group
+NCT02009449,number_of_arms,10,23
+NCT02018107,intervention_model,parallel,single group
+NCT02018107,number_of_arms,2,1
+NCT02018107,phase,not stated,not applicable
+NCT02157974,blinding,not stated,open label
+NCT02157974,intervention_model,parallel,single group
+NCT02157974,phase,not stated,2/3
+NCT02273388,number_of_arms,not stated,12
+NCT02323854,blinding,not stated,open label
+NCT02324608,blinding,not stated,open label
+NCT02324608,phase,not stated,not applicable
+NCT02485860,phase,not applicable,4
+NCT02506959,blinding,not stated,open label
+NCT02506959,randomized,no,yes
+NCT02512692,intervention_model,sequential,single group
+NCT02512692,number_of_arms,5,1
+NCT02568046,number_of_arms,7,3
+NCT02593786,intervention_model,sequential,parallel
+NCT02625610,intervention_model,parallel,sequential
+NCT02665143,blinding,blinded,open label
+NCT02665143,phase,1/2,2
+NCT02665143,randomized,yes,no
+NCT02711956,intervention_model,sequential,single group
+NCT02712320,minimum_age,none,18.0
+NCT02870049,blinding,not stated,blinded
+NCT02879695,intervention_model,sequential,single group
+NCT02885324,phase,not stated,2
+NCT02900560,randomized,yes,no
+NCT02925494,minimum_age,none,18.0
+NCT02953457,phase,1/2,2
+NCT03095274,number_of_arms,4,2
+NCT03106415,sex,female,all
+NCT03122457,phase,not stated,2
+NCT03144466,intervention_model,sequential,parallel
+NCT03154190,blinding,not stated,open label
+NCT03208192,blinding,not stated,open label
+NCT03306992,blinding,not stated,open label
+NCT03312530,number_of_arms,3,5
+NCT03396952,minimum_age,18,19.0
+NCT03535623,blinding,not stated,blinded
+NCT03535623,minimum_age,none,20.0
+NCT03535623,randomized,not stated,yes
+NCT03535623,sex,not stated,all
+NCT03570892,blinding,open label,blinded
+NCT03575806,phase,not stated,2
+NCT03575806,randomized,yes,no
+NCT03578367,intervention_model,parallel,crossover
+NCT03663166,intervention_model,single group,sequential
+NCT03663166,number_of_arms,1,2
+NCT03934905,phase,2,1/2
+NCT03934905,sex,female,all
+NCT03948763,number_of_arms,2,5
+NCT04021238,blinding,not stated,open label
+NCT04021238,phase,not stated,2
+NCT04068519,intervention_model,parallel,single group
+NCT04168944,phase,not stated,2/3
+NCT04262154,number_of_arms,2,1
+NCT04273139,intervention_model,single group,sequential
+NCT04372641,intervention_model,sequential,single group
+NCT04377932,blinding,not stated,open label
+NCT04393298,number_of_arms,8,4
+NCT04509765,blinding,not stated,open label
+NCT04509765,minimum_age,10,18.0
+NCT04509765,phase,2,not applicable
+NCT04530552,intervention_model,sequential,single group
+NCT04530552,number_of_arms,2,1
+NCT04649476,minimum_age,none,18.0
+NCT04738292,minimum_age,none,18.0
+NCT04879368,blinding,blinded,open label
+NCT04879368,number_of_arms,4,2
+NCT04973436,blinding,not stated,open label
+NCT05108805,phase,not stated,4
+NCT05346367,phase,2,not applicable
+NCT05365997,minimum_age,none,18.0
+NCT05384119,blinding,not stated,open label
+NCT05384119,phase,1/2,1
+NCT05760690,blinding,not stated,open label
+NCT05787249,blinding,not stated,open label
+NCT05902585,blinding,not stated,open label
+NCT06114004,phase,1/2,2
+NCT07200466,intervention_model,sequential,single group
+NCT07200466,minimum_age,none,45.0
+NCT07460999,minimum_age,none,18.0
+NCT07542002,blinding,not stated,open label
+NCT07542002,phase,not stated,2
+NCT07754565,blinding,not stated,blinded
+NCT07754565,sex,not stated,all
+NCT07888400,sex,not stated,all

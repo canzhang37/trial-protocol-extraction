@@ -1,0 +1,25 @@
+scoring,contrast,n,diff,lo,hi
+as planned,rag-opus - full-opus,148,-0.01640926640926641,-0.03185328185328185,-0.0028957528957528943
+as planned,rag-haiku - rag-opus,148,-0.03957528957528957,-0.053088803088803094,-0.027027027027027025
+as planned,full-haiku - full-opus,148,-0.04343629343629343,-0.05888030888030889,-0.02799227799227799
+as planned,mean full-haiku,148,0.8175675675675675,,
+as planned,mean full-opus,148,0.8610038610038611,,
+as planned,mean rag-haiku,148,0.805019305019305,,
+as planned,mean rag-opus,148,0.8445945945945946,,
+as planned,mean rules,148,0.5859073359073358,,
+defaults for not stated,rag-opus - full-opus,148,-0.0038610038610038615,-0.01640926640926641,0.006756756756756756
+defaults for not stated,rag-haiku - rag-opus,148,-0.01254826254826255,-0.02316602316602317,-0.0038610038610038602
+defaults for not stated,full-haiku - full-opus,148,-0.0222007722007722,-0.033783783783783786,-0.010617760617760619
+defaults for not stated,mean full-haiku,148,0.8716216216216216,,
+defaults for not stated,mean full-opus,148,0.8938223938223938,,
+defaults for not stated,mean rag-haiku,148,0.8774131274131273,,
+defaults for not stated,mean rag-opus,148,0.8899613899613901,,
+defaults for not stated,mean rules,148,0.5859073359073358,,
+"defaults, garbled text dropped",rag-opus - full-opus,147,-0.004859086491739554,-0.0184645286686103,0.005830903790087462
+"defaults, garbled text dropped",rag-haiku - rag-opus,147,-0.012633624878522837,-0.02235179786200195,-0.003887269193391642
+"defaults, garbled text dropped",full-haiku - full-opus,147,-0.023323615160349857,-0.03498542274052479,-0.011661807580174929
+"defaults, garbled text dropped",mean full-haiku,147,0.8765792031098152,,
+"defaults, garbled text dropped",mean full-opus,147,0.8999028182701652,,
+"defaults, garbled text dropped",mean rag-haiku,147,0.8824101068999028,,
+"defaults, garbled text dropped",mean rag-opus,147,0.8950437317784258,,
+"defaults, garbled text dropped",mean rules,147,0.5869776482021379,,

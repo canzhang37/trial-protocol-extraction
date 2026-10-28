@@ -1,0 +1,156 @@
+nct_id,phase,randomized,intervention_model,blinding,number_of_arms,minimum_age,sex
+NCT01459666,4,yes,parallel,blinded,2,18.0,all
+NCT01931163,2,no,single group,open label,1,18.0,female
+NCT00077922,2,no,single group,open label,1,18.0,all
+NCT04632459,2,no,single group,open label,1,18.0,all
+NCT04029688,1/2,no,sequential,open label,6,0.0,all
+NCT04372641,1,no,single group,open label,1,18.0,all
+NCT02665143,2,no,single group,open label,1,18.0,all
+NCT03578367,2,yes,crossover,open label,5,18.0,all
+NCT03396952,2,no,single group,open label,1,19.0,all
+NCT03844750,2,no,single group,open label,1,18.0,all
+NCT05026736,2,no,single group,open label,1,18.0,all
+NCT02593786,1/2,no,parallel,open label,2,18.0,all
+NCT01125176,2,no,single group,open label,1,18.0,all
+NCT03716739,2,yes,parallel,blinded,2,40.0,male
+NCT00804856,2,yes,parallel,open label,15,18.0,all
+NCT02249949,2,no,single group,open label,1,18.0,all
+NCT01319981,2,no,parallel,open label,2,18.0,all
+NCT02901899,2,no,single group,open label,1,18.0,female
+NCT03342937,2,no,single group,open label,1,18.0,all
+NCT00591838,1/2,no,sequential,open label,5,18.0,all
+NCT03575806,2,no,parallel,open label,2,18.0,all
+NCT02879695,1,no,single group,open label,1,16.0,all
+NCT07542002,2,no,single group,open label,1,18.0,all
+NCT00946270,2,no,parallel,open label,3,18.0,all
+NCT02323854,not applicable,no,single group,open label,1,18.0,all
+NCT02776683,3,no,single group,open label,1,18.0,all
+NCT03570892,3,yes,parallel,blinded,2,18.0,all
+NCT04068519,1/2,no,single group,open label,1,18.0,all
+NCT05110690,not applicable,no,single group,open label,1,60.0,all
+NCT03948763,1,no,parallel,open label,5,18.0,all
+NCT04973436,not applicable,no,single group,open label,1,18.0,all
+NCT02506959,2,yes,parallel,open label,2,18.0,all
+NCT03144466,1,no,parallel,open label,3,18.0,female
+NCT00566995,2,no,single group,open label,1,18.0,all
+NCT01927744,2,yes,parallel,blinded,2,18.0,all
+NCT03390907,not applicable,no,single group,open label,1,18.0,all
+NCT01753414,2,yes,parallel,open label,2,18.0,all
+NCT05442957,not applicable,yes,parallel,blinded,2,18.0,all
+NCT05108805,4,no,single group,open label,1,18.0,all
+NCT01375114,1/2,yes,single group,blinded,3,18.0,all
+NCT06508489,1/2,no,single group,open label,1,18.0,all
+NCT04021238,2,no,single group,open label,1,18.0,all
+NCT03934905,1/2,yes,parallel,blinded,2,18.0,all
+NCT02885324,2,no,single group,open label,1,2.0,all
+NCT02900560,2,no,parallel,open label,4,18.0,female
+NCT02200614,3,yes,parallel,blinded,2,18.0,male
+NCT07766044,not applicable,no,parallel,blinded,2,18.0,all
+NCT04879368,3,yes,parallel,open label,2,18.0,all
+NCT02625610,3,yes,sequential,open label,2,18.0,all
+NCT03023046,2,no,single group,open label,1,18.0,all
+NCT03256045,2,no,single group,open label,1,18.0,all
+NCT03741088,not applicable,no,single group,open label,1,18.0,all
+NCT05488366,early phase 1,no,parallel,open label,2,18.0,all
+NCT03822351,2,yes,parallel,open label,3,18.0,all
+NCT02343952,2,no,single group,open label,1,18.0,all
+NCT06289192,4,no,single group,open label,1,50.0,all
+NCT02523040,2,no,single group,open label,1,18.0,all
+NCT03663166,1/2,no,sequential,open label,2,18.0,all
+NCT01307579,3,yes,parallel,open label,2,0.25,all
+NCT04393454,2,no,single group,open label,1,18.0,all
+NCT02009449,1,no,single group,open label,23,18.0,all
+NCT02673333,2,no,single group,open label,1,18.0,all
+NCT02512692,not applicable,no,single group,open label,1,18.0,all
+NCT02770014,2,no,single group,open label,1,18.0,all
+NCT03312530,1/2,yes,parallel,open label,5,18.0,all
+NCT03990961,2,no,single group,open label,1,18.0,all
+NCT01414608,3,yes,parallel,open label,2,18.0,female
+NCT03208192,not applicable,yes,parallel,open label,2,18.0,all
+NCT02312557,2,no,single group,open label,1,18.0,male
+NCT01097642,2,yes,parallel,open label,2,18.0,female
+NCT01263769,2,no,single group,open label,1,18.0,all
+NCT01029873,1/2,no,sequential,open label,4,18.0,all
+NCT03306992,3,yes,parallel,open label,2,18.0,all
+NCT04738292,2,no,single group,open label,1,18.0,all
+NCT05694013,2/3,yes,parallel,open label,3,18.0,all
+NCT06114004,2,no,single group,open label,1,18.0,all
+NCT05384119,1,no,sequential,open label,2,18.0,all
+NCT07460999,not applicable,yes,crossover,blinded,2,18.0,all
+NCT03815344,4,yes,parallel,blinded,2,18.0,female
+NCT02811861,3,yes,parallel,open label,3,18.0,all
+NCT03154294,1,no,sequential,open label,5,18.0,all
+NCT05126433,2,no,parallel,open label,3,18.0,all
+NCT04377932,1,no,sequential,open label,1,1.0,all
+NCT07888400,not applicable,yes,parallel,blinded,3,18.0,all
+NCT04273139,2,no,sequential,open label,1,18.0,all
+NCT00324415,2,no,single group,open label,1,18.0,all
+NCT07754565,not applicable,yes,parallel,blinded,2,18.0,all
+NCT03337399,not applicable,yes,parallel,open label,2,18.0,all
+NCT02734433,1,no,sequential,open label,1,20.0,all
+NCT02324231,not applicable,yes,crossover,open label,2,1.0,all
+NCT04530552,2,no,single group,open label,1,18.0,male
+NCT02289456,2,no,single group,open label,1,18.0,all
+NCT03206970,2,no,single group,open label,1,18.0,all
+NCT02157974,2/3,no,single group,open label,5,12.0,female
+NCT05346367,not applicable,yes,parallel,open label,2,18.0,all
+NCT04785820,2,yes,parallel,blinded,3,18.0,all
+NCT00774345,3,yes,parallel,blinded,2,18.0,all
+NCT02712320,3,no,single group,open label,1,18.0,male
+NCT03377023,1/2,no,parallel,open label,3,18.0,all
+NCT02864394,3,yes,parallel,open label,2,18.0,all
+NCT03366103,1/2,no,single group,open label,1,18.0,all
+NCT04168944,2/3,yes,parallel,open label,2,18.0,all
+NCT04393298,1/2,no,sequential,open label,4,18.0,all
+NCT05365997,not applicable,yes,parallel,blinded,2,18.0,all
+NCT03593226,1/2,no,parallel,open label,4,18.0,all
+NCT03535623,not applicable,yes,parallel,blinded,2,20.0,all
+NCT03026166,1/2,no,sequential,open label,3,18.0,all
+NCT04262154,2,no,single group,open label,1,18.0,male
+NCT05787249,not applicable,yes,factorial,open label,4,40.0,female
+NCT04624178,2,no,single group,open label,1,18.0,all
+NCT02754882,3,yes,parallel,blinded,2,18.0,all
+NCT04509765,not applicable,no,single group,open label,1,18.0,all
+NCT02711956,1/2,no,single group,open label,1,18.0,male
+NCT05902585,not applicable,yes,parallel,open label,2,7.0,all
+NCT04682405,2,yes,parallel,blinded,2,18.0,all
+NCT05675709,not applicable,no,parallel,open label,2,18.0,all
+NCT02273388,1,no,sequential,open label,12,18.0,all
+NCT02925494,3,yes,parallel,blinded,2,18.0,female
+NCT01296932,1,no,single group,open label,1,18.0,all
+NCT04770272,2,yes,parallel,open label,2,18.0,all
+NCT05685511,not applicable,yes,parallel,blinded,2,60.0,all
+NCT05760690,not applicable,no,parallel,open label,3,18.0,all
+NCT02870049,not applicable,yes,factorial,blinded,4,50.0,all
+NCT03140670,2,no,single group,open label,1,18.0,all
+NCT04983901,2,yes,parallel,open label,2,18.0,all
+NCT02506933,2,yes,parallel,blinded,2,18.0,all
+NCT01260181,2,no,single group,open label,1,18.0,all
+NCT03834493,3,yes,parallel,blinded,2,18.0,male
+NCT02515227,1/2,no,single group,open label,1,18.0,all
+NCT03341936,2,no,single group,open label,1,18.0,all
+NCT04220983,not applicable,no,single group,open label,1,18.0,male
+NCT02018107,not applicable,no,single group,open label,1,18.0,all
+NCT07200466,not applicable,no,single group,open label,2,45.0,female
+NCT04649476,2,yes,parallel,open label,2,18.0,all
+NCT03768505,2,no,single group,open label,1,18.0,all
+NCT03041636,2,no,single group,open label,1,18.0,all
+NCT03095274,2,no,single group,open label,2,18.0,all
+NCT02485860,4,yes,parallel,open label,2,18.0,all
+NCT02003924,3,yes,parallel,blinded,2,18.0,male
+NCT02662062,2,no,single group,open label,1,18.0,all
+NCT02568046,1/2,no,sequential,open label,3,18.0,all
+NCT02324608,not applicable,no,single group,open label,1,18.0,all
+NCT04251533,3,yes,parallel,blinded,3,18.0,all
+NCT03154190,not applicable,yes,parallel,open label,2,18.0,all
+NCT02323646,2,yes,parallel,blinded,3,18.0,female
+NCT03106415,1/2,no,single group,open label,1,18.0,all
+NCT02292446,3,no,single group,open label,1,18.0,all
+NCT01847001,2,no,single group,open label,1,18.0,female
+NCT05445167,3,yes,parallel,blinded,2,20.0,female
+NCT03101748,1/2,no,parallel,open label,3,18.0,all
+NCT03122457,2,no,single group,open label,1,18.0,female
+NCT04527900,2,no,single group,open label,1,18.0,female
+NCT00783367,2,no,single group,open label,1,18.0,all
+NCT02953457,2,no,single group,open label,1,18.0,female
+NCT00807599,2,yes,parallel,open label,2,18.0,all

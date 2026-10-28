@@ -1,0 +1,15 @@
+field,contrast,a_only,b_only,p
+phase,rag-opus - full-opus,0,0,1.0
+randomized,rag-opus - full-opus,1,3,0.625
+intervention_model,rag-opus - full-opus,2,4,0.6875
+blinding,rag-opus - full-opus,3,10,0.09228515625
+number_of_arms,rag-opus - full-opus,4,3,1.0
+minimum_age,rag-opus - full-opus,0,3,0.25
+sex,rag-opus - full-opus,1,5,0.21875
+phase,rag-haiku - rag-opus,0,14,0.0001220703125
+randomized,rag-haiku - rag-opus,0,2,0.5
+intervention_model,rag-haiku - rag-opus,2,3,1.0
+blinding,rag-haiku - rag-opus,1,7,0.0703125
+number_of_arms,rag-haiku - rag-opus,1,4,0.375
+minimum_age,rag-haiku - rag-opus,0,1,1.0
+sex,rag-haiku - rag-opus,0,14,0.0001220703125
