@@ -34,7 +34,7 @@ Part 1 ran at batch prices; this table doubles those costs so that every row is 
 | K4 | quotes found in the text, Haiku agent, at least 95% | 94.5% | failed |
 | K5 | agent vs fixed RAG, Opus, all 148, lower bound above 0 | +0.007 (-0.005 to +0.020) | failed |
 | K5, first 50 | the same on the first 50, as first planned | 0.000 (-0.011 to +0.011) | failed |
-| K6 | tests in continuous integration and in the Docker image | 16 tests pass locally; CI runs when the repository is updated | not checked yet |
+| K6 | tests in continuous integration and in the Docker image | 16 tests pass on Python 3.10 and 3.12 in GitHub Actions and inside the Docker image | met |
 
 The agent did not beat fixed retrieval with either model: with Haiku it gained 1.4 points, and the interval reached just below 0; with Opus it gained 0.7. With Haiku it matched the full text (K2) at under a third of the full-text cost.
 

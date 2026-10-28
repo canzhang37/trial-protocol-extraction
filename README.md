@@ -27,7 +27,7 @@ The agent gets two tools over the protocol (a BM25 search and a page reader), up
 | Haiku 5.5, full text | 81.8% | $0.018 |
 | Haiku 5.5, RAG | 80.5% | $0.002 |
 
-The agent did not beat fixed retrieval with either model (+1.4 points with Haiku, interval -0.2 to +3.1; +0.7 with Opus), so four of the five scored checks failed. With Haiku it matched the full text at under a third of its cost, gaining where a fixed query misses the page with the answer (the title page for the phase, the schema for the arms), and it did nothing for blinding, the field expected to gain most. Its token count was as high as the full text's, because a loop resends its history every turn; prompt caching is what kept the cost low. Part 2 cost $20.08.
+The agent did not beat fixed retrieval with either model (+1.4 points with Haiku, interval -0.2 to +3.1; +0.7 with Opus), so four of the six checks failed (the comparison with the full text and the tests passed). With Haiku it matched the full text at under a third of its cost, gaining where a fixed query misses the page with the answer (the title page for the phase, the schema for the arms), and it did nothing for blinding, the field expected to gain most. Its token count was as high as the full text's, because a loop resends its history every turn; prompt caching is what kept the cost low. Part 2 cost $20.08.
 
 ## Run
 
